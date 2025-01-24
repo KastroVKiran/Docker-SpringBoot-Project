@@ -18,7 +18,7 @@ public class WelcomeRestController {
 	@GetMapping
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
-		String msg = "Welcome to Ashok IT - Software Training Institute (HYD) ..!!";
+		String msg = "Congratulations..!! This is your SpringBoot App";
 		logger.info("***** welcomeMsg() execution end *****");
 		return msg;
 	}
